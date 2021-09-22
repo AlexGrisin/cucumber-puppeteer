@@ -1,0 +1,24 @@
+{
+  "name": "jest-puppeteer",
+  "version": "1.0.0",
+  "description": "https://medium.com/ovrsea/headless-browser-testing-with-jest-and-puppeteer-2cf7d04f4af5",
+  "main": "index.js",
+  "dependencies": {
+    "api": "GIT_PATH_FOR_API_REPO",
+    "web": "GIT_PATH_FOR_WEB_REPO"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "puppeteer": "^1.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Grisin",
+  "license": "ISC",
+  "keywords": [
+    "jest",
+    "puppeteer"
+  ]
+}
